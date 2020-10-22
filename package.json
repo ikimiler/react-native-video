@@ -44,6 +44,11 @@
     "scripts": {
         "lint": "yarn eslint *.js"
     },
+    "rnpm": {
+        "android": {
+            "sourceDir": "./android-exoplayer"
+        }
+    },
     "files": [
         "android-exoplayer",
         "android",
